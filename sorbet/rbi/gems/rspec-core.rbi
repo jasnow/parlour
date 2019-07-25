@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/rspec-core/all/rspec-core.rbi
 #
-# rspec-core-3.8.1
+# rspec-core-3.8.2
 module RSpec
   def self.clear_examples; end
   def self.configuration; end
@@ -563,6 +563,7 @@ module RSpec::Core::HashImitatable
   def all?(*args, &block); end
   def any?(*args, &block); end
   def assoc(*args, &block); end
+  def chain(*args, &block); end
   def chunk(*args, &block); end
   def chunk_while(*args, &block); end
   def clear(*args, &block); end
@@ -599,6 +600,8 @@ module RSpec::Core::HashImitatable
   def extra_hash_attributes; end
   def fetch(*args, &block); end
   def fetch_values(*args, &block); end
+  def filter!(*args, &block); end
+  def filter(*args, &block); end
   def find(*args, &block); end
   def find_all(*args, &block); end
   def find_index(*args, &block); end
@@ -1415,7 +1418,9 @@ class RSpec::Core::Example
   def with_around_example_hooks; end
 end
 class RSpec::Core::Example::Procsy
+  def <<(*a, &b); end
   def ===(*a, &b); end
+  def >>(*a, &b); end
   def [](*a, &b); end
   def arity(*a, &b); end
   def binding(*a, &b); end
@@ -1639,4 +1644,15 @@ class Module
   def shared_examples_for(name, *args, &block); end
   def xcontext(*a, &b); end
   def xdescribe(*a, &b); end
+end
+module RSpec::Core::MockingAdapters
+end
+module RSpec::Core::MockingAdapters::RSpec
+  def self.configuration; end
+  def self.framework_name; end
+  def setup_mocks_for_rspec; end
+  def teardown_mocks_for_rspec; end
+  def verify_mocks_for_rspec; end
+  include RSpec::Mocks::ExampleMethods
+  include RSpec::Mocks::ExampleMethods::ExpectHost
 end

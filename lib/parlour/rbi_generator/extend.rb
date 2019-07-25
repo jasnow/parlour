@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 module Parlour
   class RbiGenerator
     # Represents an +extend+ call.

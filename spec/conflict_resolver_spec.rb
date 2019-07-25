@@ -1,3 +1,4 @@
+# typed: false
 RSpec.describe Parlour::ConflictResolver do
   def gen
     Parlour::RbiGenerator.new

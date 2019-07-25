@@ -1,3 +1,4 @@
+# typed: false
 RSpec.describe Parlour::RbiGenerator::Parameter do
   def pa(*a)
     described_class.new(*a)
