@@ -249,11 +249,21 @@ RSpec.describe Parlour::RbiGenerator do
     it 'can be created with qualifiers' do
       meth = subject.root.create_method('foo', parameters: [
         pa('a', type: 'Integer', default: '4')
-      ], return_type: 'String', implementation: true, overridable: true)
+      ], return_type: 'String', override: true, overridable: true)
 
       expect(meth.generate_rbi(0, opts).join("\n")).to eq fix_heredoc(<<-RUBY)
-        sig { implementation.overridable.params(a: Integer).returns(String) }
+        sig { override.overridable.params(a: Integer).returns(String) }
         def foo(a = 4); end
+      RUBY
+    end
+
+    it 'translates implementation to override (backwards compatibility)' do
+      meth = subject.root.create_method('foo', parameters: [],
+        return_type: 'String', implementation: true)
+
+      expect(meth.generate_rbi(0, opts).join("\n")).to eq fix_heredoc(<<-RUBY)
+        sig { override.returns(String) }
+        def foo; end
       RUBY
     end
 
@@ -265,6 +275,17 @@ RSpec.describe Parlour::RbiGenerator do
       expect(meth.generate_rbi(0, opts).join("\n")).to eq fix_heredoc(<<-RUBY)
         sig { params(a: Integer).returns(String) }
         def self.foo(a = 4); end
+      RUBY
+    end
+
+    it 'supports type parameters' do
+      meth = subject.root.create_method('box', type_parameters: [:A], parameters: [
+        pa('a', type: 'T.type_parameter(:A)')
+      ], return_type: 'T::Array[T.type_parameter(:A)]')
+
+      expect(meth.generate_rbi(0, opts).join("\n")).to eq fix_heredoc(<<-RUBY)
+        sig { type_parameters(:A).params(a: T.type_parameter(:A)).returns(T::Array[T.type_parameter(:A)]) }
+        def box(a); end
       RUBY
     end
   end

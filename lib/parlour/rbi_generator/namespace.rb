@@ -7,7 +7,7 @@ module Parlour
       extend T::Sig
 
       sig do
-        implementation.overridable.params(
+        override.overridable.params(
           indent_level: Integer,
           options: Options
         ).returns(T::Array[String])
@@ -199,6 +199,7 @@ module Parlour
           override: T::Boolean,
           overridable: T::Boolean,
           class_method: T::Boolean,
+          type_parameters: T.nilable(T::Array[Symbol]),
           block: T.nilable(T.proc.params(x: Method).void)
         ).returns(Method)
       end
@@ -212,16 +213,17 @@ module Parlour
       #   +"String"+ or +"T.untyped"+. Passing nil denotes a void return.
       # @param returns [String, nil] Same as return_type.
       # @param abstract [Boolean] Whether this method is abstract.
-      # @param implementation [Boolean] Whether this method is an implementation of a
-      #   parent abstract method.
+      # @param implementation [Boolean] DEPRECATED: Whether this method is an 
+      #   implementation of a parent abstract method.
       # @param override [Boolean] Whether this method is overriding a parent overridable
-      #   method.
+      #   method, or implementing a parent abstract method.
       # @param overridable [Boolean] Whether this method is overridable by subclasses.
       # @param class_method [Boolean] Whether this method is a class method; that is, it
       #   it is defined using +self.+.
+      # @param class_method [Array<Symbol>, nil] This method's type parameters.
       # @param block A block which the new instance yields itself to.
       # @return [Method]
-      def create_method(name, parameters: nil, return_type: nil, returns: nil, abstract: false, implementation: false, override: false, overridable: false, class_method: false, &block)
+      def create_method(name, parameters: nil, return_type: nil, returns: nil, abstract: false, implementation: false, override: false, overridable: false, class_method: false, type_parameters: nil, &block)
         parameters = parameters || []
         raise 'cannot specify both return_type: and returns:' if return_type && returns
         return_type ||= returns
@@ -235,6 +237,7 @@ module Parlour
           override: override,
           overridable: overridable,
           class_method: class_method,
+          type_parameters: type_parameters,
           &block
         )
         move_next_comments(new_method)
@@ -476,7 +479,7 @@ module Parlour
       end
 
       sig do
-        implementation.overridable.params(
+        override.overridable.params(
           others: T::Array[RbiGenerator::RbiObject]
         ).returns(T::Boolean)
       end
@@ -493,7 +496,7 @@ module Parlour
       end
 
       sig do 
-        implementation.overridable.params(
+        override.overridable.params(
           others: T::Array[RbiGenerator::RbiObject]
         ).void
       end
@@ -511,7 +514,7 @@ module Parlour
         end
       end
 
-      sig { implementation.overridable.returns(String) }
+      sig { override.overridable.returns(String) }
       # Returns a human-readable brief string description of this namespace.
       #
       # @return [String]
