@@ -131,80 +131,21 @@
 # wrong constant name <todo sym>
 # uninitialized constant Abbrev
 # uninitialized constant Abbrev
-# undefined method `[]$2' for class `Array'
-# undefined method `[]=$2' for class `Array'
-# undefined method `concat$1' for class `Array'
-# undefined method `fetch$2' for class `Array'
-# undefined method `fill$2' for class `Array'
-# undefined method `flatten$1' for class `Array'
-# undefined method `index$2' for class `Array'
-# undefined method `initialize$2' for class `Array'
-# Did you mean?  initialize
-# undefined method `insert$1' for class `Array'
-# Did you mean?  inspect
-# undefined method `join$1' for class `Array'
-# undefined method `last$2' for class `Array'
-# undefined method `permutation$2' for class `Array'
-# undefined method `pop$2' for class `Array'
-# undefined method `rindex$2' for class `Array'
-# undefined method `rotate$1' for class `Array'
-# undefined method `rotate!$1' for class `Array'
-# undefined method `sample$2' for class `Array'
-# undefined method `shift$2' for class `Array'
-# undefined method `shuffle$1' for class `Array'
-# undefined method `shuffle!$1' for class `Array'
-# undefined method `slice$2' for class `Array'
-# undefined method `slice!$2' for class `Array'
-# wrong constant name []$2
-# wrong constant name []=$2
 # wrong constant name bsearch
 # wrong constant name bsearch_index
 # wrong constant name collect!
-# wrong constant name concat$1
 # wrong constant name dig
-# wrong constant name fetch$2
-# wrong constant name fill$2
 # wrong constant name filter!
-# wrong constant name flatten$1
 # wrong constant name flatten!
-# wrong constant name index$2
-# wrong constant name initialize$2
-# wrong constant name insert$1
-# wrong constant name join$1
-# wrong constant name last$2
 # wrong constant name pack
-# wrong constant name permutation$2
-# wrong constant name pop$2
 # wrong constant name replace
-# wrong constant name rindex$2
-# wrong constant name rotate$1
-# wrong constant name rotate!$1
-# wrong constant name sample$2
 # wrong constant name shelljoin
-# wrong constant name shift$2
-# wrong constant name shuffle$1
-# wrong constant name shuffle!$1
-# wrong constant name slice$2
-# wrong constant name slice!$2
 # wrong constant name to_h
 # wrong constant name try_convert
 # wrong constant name <Class:BasicObject>
 # uninitialized constant Benchmark
 # uninitialized constant Benchmark
-# undefined method `_dump$1' for class `BigDecimal'
-# undefined method `div$2' for class `BigDecimal'
-# undefined method `power$2' for class `BigDecimal'
-# undefined method `to_s$1' for class `BigDecimal'
-# Did you mean?  to_s
-# wrong constant name _dump$1
 # wrong constant name clone
-# wrong constant name div$2
-# wrong constant name power$2
-# wrong constant name to_s$1
-# undefined singleton method `limit$1' for `BigDecimal'
-# undefined singleton method `mode$1' for `BigDecimal'
-# wrong constant name limit$1
-# wrong constant name mode$1
 # wrong constant name new
 # wrong constant name clone
 # wrong constant name irb
@@ -2089,22 +2030,15 @@
 # uninitialized constant CSV
 # uninitialized constant Chalk
 # uninitialized constant Chalk
-# undefined method `initialize$2' for class `Class'
-# Did you mean?  initialize
-# wrong constant name initialize$2
 # wrong constant name json_creatable?
 # wrong constant name polar
 # wrong constant name rect
 # wrong constant name rectangular
 # uninitialized constant Configatron
 # uninitialized constant Configatron
-# undefined singleton method `result$1' for `Coverage'
-# undefined singleton method `start$1' for `Coverage'
 # wrong constant name line_stub
 # wrong constant name peek_result
-# wrong constant name result$1
 # wrong constant name running?
-# wrong constant name start$1
 # wrong constant name initialize
 # wrong constant name !=
 # wrong constant name ==
@@ -2144,8 +2078,6 @@
 # wrong constant name method_name
 # wrong constant name method_names
 # wrong constant name receiver
-# wrong constant name NameErrorCheckers$1
-# wrong constant name NameErrorCheckers$1
 # wrong constant name corrections
 # wrong constant name initialize
 # wrong constant name message_for
@@ -2161,37 +2093,15 @@
 # wrong constant name name
 # wrong constant name formatter
 # wrong constant name formatter=
-# undefined method `initialize$1' for class `Dir'
-# Did you mean?  initialize
 # wrong constant name children
 # wrong constant name each_child
-# wrong constant name initialize$1
-# undefined singleton method `[]$2' for `Dir'
-# undefined singleton method `chdir$2' for `Dir'
-# undefined singleton method `entries$1' for `Dir'
-# undefined singleton method `foreach$2' for `Dir'
-# undefined singleton method `glob$2' for `Dir'
-# undefined singleton method `home$1' for `Dir'
-# undefined singleton method `mkdir$1' for `Dir'
-# undefined singleton method `mktmpdir$2' for `Dir'
-# wrong constant name []$2
-# wrong constant name chdir$2
 # wrong constant name children
 # wrong constant name each_child
 # wrong constant name empty?
-# wrong constant name entries$1
 # wrong constant name exists?
-# wrong constant name foreach$2
-# wrong constant name glob$2
-# wrong constant name home$1
-# wrong constant name mkdir$1
-# wrong constant name mktmpdir$2
 # wrong constant name tmpdir
-# undefined method `initialize$1' for class `ERB'
-# Did you mean?  initialize
 # wrong constant name def_method
 # wrong constant name def_module
-# wrong constant name initialize$1
 # wrong constant name result_with_hash
 # wrong constant name _dump
 # wrong constant name convert
@@ -2223,72 +2133,23 @@
 # wrong constant name source_encoding_name
 # wrong constant name _load
 # wrong constant name locale_charmap
-# undefined method `all?$2' for module `Enumerable'
-# undefined method `any?$2' for module `Enumerable'
-# undefined method `count$2' for module `Enumerable'
-# undefined method `cycle$2' for module `Enumerable'
-# undefined method `detect$2' for module `Enumerable'
-# undefined method `each_with_index$2' for module `Enumerable'
-# undefined method `entries$1' for module `Enumerable'
-# undefined method `find$2' for module `Enumerable'
-# undefined method `find_index$2' for module `Enumerable'
-# undefined method `first$2' for module `Enumerable'
-# undefined method `inject$2' for module `Enumerable'
-# undefined method `max$2' for module `Enumerable'
-# undefined method `max_by$2' for module `Enumerable'
-# undefined method `min$2' for module `Enumerable'
-# undefined method `min_by$2' for module `Enumerable'
-# undefined method `none?$2' for module `Enumerable'
-# undefined method `one?$2' for module `Enumerable'
-# undefined method `reduce$2' for module `Enumerable'
-# undefined method `reverse_each$2' for module `Enumerable'
-# undefined method `to_a$1' for module `Enumerable'
-# undefined method `to_h$1' for module `Enumerable'
-# wrong constant name all?$2
-# wrong constant name any?$2
 # wrong constant name chain
 # wrong constant name chunk
 # wrong constant name chunk_while
-# wrong constant name count$2
-# wrong constant name cycle$2
-# wrong constant name detect$2
 # wrong constant name each_entry
-# wrong constant name each_with_index$2
-# wrong constant name entries$1
 # wrong constant name filter
-# wrong constant name find$2
-# wrong constant name find_index$2
-# wrong constant name first$2
 # wrong constant name grep_v
-# wrong constant name inject$2
-# wrong constant name max$2
-# wrong constant name max_by$2
-# wrong constant name min$2
-# wrong constant name min_by$2
-# wrong constant name none?$2
-# wrong constant name one?$2
-# wrong constant name reduce$2
-# wrong constant name reverse_each$2
 # wrong constant name slice_after
 # wrong constant name slice_before
 # wrong constant name slice_when
 # wrong constant name sum
-# wrong constant name to_a$1
-# wrong constant name to_h$1
 # wrong constant name to_set
 # wrong constant name uniq
 # wrong constant name zip
-# undefined method `each$2' for class `Enumerator'
-# undefined method `initialize$1' for class `Enumerator'
-# Did you mean?  initialize
-# undefined method `with_index$2' for class `Enumerator'
 # wrong constant name +
 # wrong constant name <Class:ArithmeticSequence>
 # wrong constant name <Class:Chain>
-# wrong constant name each$2
 # wrong constant name each_with_index
-# wrong constant name initialize$1
-# wrong constant name with_index$2
 # uninitialized constant Enumerator::ArithmeticSequence::Elem
 # wrong constant name begin
 # wrong constant name each
@@ -2305,115 +2166,25 @@
 # wrong constant name chunk_while
 # wrong constant name force
 # wrong constant name slice_when
-# wrong constant name EADV$1
-# wrong constant name EADV$1
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name EBADE$1
-# wrong constant name EBADE$1
-# wrong constant name <static-init>
-# wrong constant name EBADFD$1
-# wrong constant name EBADFD$1
-# wrong constant name <static-init>
-# wrong constant name EBADR$1
-# wrong constant name EBADR$1
-# wrong constant name <static-init>
-# wrong constant name EBADRQC$1
-# wrong constant name EBADRQC$1
-# wrong constant name EBADSLT$1
-# wrong constant name EBADSLT$1
-# wrong constant name EBFONT$1
-# wrong constant name EBFONT$1
-# wrong constant name ECHRNG$1
-# wrong constant name ECHRNG$1
-# wrong constant name ECOMM$1
-# wrong constant name ECOMM$1
-# wrong constant name <static-init>
-# wrong constant name EDOTDOT$1
-# wrong constant name EDOTDOT$1
-# wrong constant name <static-init>
-# wrong constant name EHWPOISON$1
-# wrong constant name EHWPOISON$1
-# wrong constant name EISNAM$1
-# wrong constant name EISNAM$1
-# wrong constant name EKEYEXPIRED$1
-# wrong constant name EKEYEXPIRED$1
-# wrong constant name EKEYREJECTED$1
-# wrong constant name EKEYREJECTED$1
-# wrong constant name EKEYREVOKED$1
-# wrong constant name EKEYREVOKED$1
-# wrong constant name EL2HLT$1
-# wrong constant name EL2HLT$1
-# wrong constant name EL2NSYNC$1
-# wrong constant name EL2NSYNC$1
-# wrong constant name EL3HLT$1
-# wrong constant name EL3HLT$1
-# wrong constant name EL3RST$1
-# wrong constant name EL3RST$1
-# wrong constant name <static-init>
-# wrong constant name ELIBACC$1
-# wrong constant name ELIBACC$1
-# wrong constant name ELIBBAD$1
-# wrong constant name ELIBBAD$1
-# wrong constant name ELIBEXEC$1
-# wrong constant name ELIBEXEC$1
-# wrong constant name ELIBMAX$1
-# wrong constant name ELIBMAX$1
-# wrong constant name ELIBSCN$1
-# wrong constant name ELIBSCN$1
-# wrong constant name ELNRNG$1
-# wrong constant name ELNRNG$1
-# wrong constant name EMEDIUMTYPE$1
-# wrong constant name EMEDIUMTYPE$1
-# wrong constant name ENAVAIL$1
-# wrong constant name ENAVAIL$1
-# wrong constant name <static-init>
-# wrong constant name ENOANO$1
-# wrong constant name ENOANO$1
-# wrong constant name <static-init>
-# wrong constant name ENOCSI$1
-# wrong constant name ENOCSI$1
-# wrong constant name ENOKEY$1
-# wrong constant name ENOKEY$1
-# wrong constant name ENOMEDIUM$1
-# wrong constant name ENOMEDIUM$1
-# wrong constant name ENONET$1
-# wrong constant name ENONET$1
-# wrong constant name ENOPKG$1
-# wrong constant name ENOPKG$1
-# wrong constant name <static-init>
-# wrong constant name ENOTNAM$1
-# wrong constant name ENOTNAM$1
-# wrong constant name <static-init>
-# wrong constant name ENOTUNIQ$1
-# wrong constant name ENOTUNIQ$1
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name EREMCHG$1
-# wrong constant name EREMCHG$1
-# wrong constant name EREMOTEIO$1
-# wrong constant name EREMOTEIO$1
-# wrong constant name ERESTART$1
-# wrong constant name ERESTART$1
-# wrong constant name ERFKILL$1
-# wrong constant name ERFKILL$1
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name ESRMNT$1
-# wrong constant name ESRMNT$1
-# wrong constant name ESTRPIPE$1
-# wrong constant name ESTRPIPE$1
-# wrong constant name EUCLEAN$1
-# wrong constant name EUCLEAN$1
-# wrong constant name EUNATCH$1
-# wrong constant name EUNATCH$1
-# wrong constant name EWOULDBLOCK$1
-# wrong constant name EWOULDBLOCK$1
-# wrong constant name EXFULL$1
-# wrong constant name EXFULL$1
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
 # wrong constant name gid
 # wrong constant name gid=
 # wrong constant name mem
@@ -2469,13 +2240,7 @@
 # wrong constant name sysconfdir
 # wrong constant name systmpdir
 # wrong constant name uname
-# undefined method `exception$1' for class `Exception'
-# Did you mean?  exception
-# undefined method `initialize$1' for class `Exception'
-# Did you mean?  initialize
-# wrong constant name exception$1
 # wrong constant name full_message
-# wrong constant name initialize$1
 # wrong constant name exception
 # wrong constant name to_tty?
 # uninitialized constant Exception2MessageMapper
@@ -2484,36 +2249,10 @@
 # wrong constant name resume
 # wrong constant name yield
 # wrong constant name size?
-# undefined singleton method `absolute_path$1' for `File'
-# undefined singleton method `basename$1' for `File'
-# undefined singleton method `chmod$1' for `File'
-# undefined singleton method `chown$1' for `File'
-# undefined singleton method `expand_path$1' for `File'
-# undefined singleton method `fnmatch$1' for `File'
-# undefined singleton method `fnmatch?$1' for `File'
-# undefined singleton method `lchmod$1' for `File'
-# undefined singleton method `lchown$1' for `File'
-# undefined singleton method `realdirpath$1' for `File'
-# undefined singleton method `realpath$1' for `File'
-# undefined singleton method `umask$1' for `File'
-# undefined singleton method `utime$1' for `File'
-# wrong constant name absolute_path$1
-# wrong constant name basename$1
-# wrong constant name chmod$1
-# wrong constant name chown$1
 # wrong constant name empty?
 # wrong constant name exists?
-# wrong constant name expand_path$1
-# wrong constant name fnmatch$1
-# wrong constant name fnmatch?$1
-# wrong constant name lchmod$1
-# wrong constant name lchown$1
 # wrong constant name lutime
 # wrong constant name mkfifo
-# wrong constant name realdirpath$1
-# wrong constant name realpath$1
-# wrong constant name umask$1
-# wrong constant name utime$1
 # uninitialized constant FileUtils::DryRun::LN_SUPPORTED
 # Did you mean?  FileUtils::LN_SUPPORTED
 # uninitialized constant FileUtils::DryRun::RUBY
@@ -2532,9 +2271,6 @@
 # Did you mean?  FileUtils::RUBY
 # uninitialized constant FileUtils::Verbose::VERSION
 # Did you mean?  FileUtils::VERSION
-# undefined method `rationalize$2' for class `Float'
-# Did you mean?  Rational
-# wrong constant name rationalize$2
 # wrong constant name def_delegator
 # wrong constant name def_delegators
 # wrong constant name def_instance_delegator
@@ -2548,11 +2284,7 @@
 # wrong constant name debug=
 # wrong constant name <static-init>
 # wrong constant name garbage_collect
-# undefined singleton method `start$1' for `GC'
-# undefined singleton method `stat$2' for `GC'
 # wrong constant name latest_gc_info
-# wrong constant name start$1
-# wrong constant name stat$2
 # wrong constant name stress=
 # wrong constant name verify_internal_consistency
 # wrong constant name verify_transient_heap_internal_consistency
@@ -4353,13 +4085,11 @@
 # wrong constant name correct?
 # wrong constant name create
 # wrong constant name new
-# undefined singleton method `bin_path$1' for `Gem'
 # wrong constant name _deprecated_detect_gemdeps
 # wrong constant name _deprecated_gunzip
 # wrong constant name _deprecated_gzip
 # wrong constant name _deprecated_inflate
 # wrong constant name activate_bin_path
-# wrong constant name bin_path$1
 # wrong constant name default_ext_dir_for
 # wrong constant name default_gems_use_full_paths?
 # wrong constant name default_spec_cache_dir
@@ -4445,26 +4175,19 @@
 # wrong constant name vendor_dir
 # wrong constant name win_platform?
 # wrong constant name write_binary
-# undefined method `default$2' for class `Hash'
-# undefined method `fetch$2' for class `Hash'
-# undefined method `initialize$2' for class `Hash'
-# Did you mean?  initialize
 # wrong constant name <
 # wrong constant name <=
 # wrong constant name >
 # wrong constant name >=
 # wrong constant name compact
 # wrong constant name compact!
-# wrong constant name default$2
 # wrong constant name default_proc
 # wrong constant name default_proc=
 # wrong constant name dig
-# wrong constant name fetch$2
 # wrong constant name fetch_values
 # wrong constant name filter!
 # wrong constant name flatten
 # wrong constant name index
-# wrong constant name initialize$2
 # wrong constant name merge!
 # wrong constant name replace
 # wrong constant name slice
@@ -4476,33 +4199,7 @@
 # wrong constant name transform_values!
 # wrong constant name update
 # wrong constant name try_convert
-# undefined method `advise$1' for class `IO'
-# undefined method `each$2' for class `IO'
-# undefined method `each_line$2' for class `IO'
-# undefined method `fcntl$1' for class `IO'
-# undefined method `initialize$1' for class `IO'
-# Did you mean?  initialize
-# undefined method `ioctl$1' for class `IO'
-# undefined method `lines$2' for class `IO'
-# undefined method `read$1' for class `IO'
-# Did you mean?  read
-# undefined method `read_nonblock$2' for class `IO'
-# undefined method `readpartial$2' for class `IO'
-# undefined method `reopen$2' for class `IO'
-# undefined method `seek$1' for class `IO'
-# undefined method `set_encoding$2' for class `IO'
-# undefined method `sysread$1' for class `IO'
-# undefined method `sysseek$1' for class `IO'
-# undefined method `write$1' for class `IO'
-# Did you mean?  write
-# wrong constant name advise$1
-# wrong constant name each$2
-# wrong constant name each_line$2
 # wrong constant name external_encoding
-# wrong constant name fcntl$1
-# wrong constant name initialize$1
-# wrong constant name ioctl$1
-# wrong constant name lines$2
 # wrong constant name nonblock
 # wrong constant name nonblock=
 # wrong constant name nonblock?
@@ -4510,36 +4207,13 @@
 # wrong constant name pathconf
 # wrong constant name pread
 # wrong constant name pwrite
-# wrong constant name read$1
-# wrong constant name read_nonblock$2
-# wrong constant name readpartial$2
 # wrong constant name ready?
-# wrong constant name reopen$2
-# wrong constant name seek$1
-# wrong constant name set_encoding$2
-# wrong constant name sysread$1
-# wrong constant name sysseek$1
 # wrong constant name wait
 # wrong constant name wait_readable
 # wrong constant name wait_writable
-# wrong constant name write$1
 # wrong constant name write_nonblock
-# undefined singleton method `binread$1' for `IO'
-# undefined singleton method `binwrite$1' for `IO'
-# undefined singleton method `copy_stream$1' for `IO'
-# undefined singleton method `for_fd$1' for `IO'
-# undefined singleton method `read$1' for `IO'
-# undefined singleton method `sysopen$1' for `IO'
-# undefined singleton method `write$1' for `IO'
-# wrong constant name binread$1
-# wrong constant name binwrite$1
-# wrong constant name copy_stream$1
-# wrong constant name for_fd$1
 # wrong constant name foreach
 # wrong constant name pipe
-# wrong constant name read$1
-# wrong constant name sysopen$1
-# wrong constant name write$1
 # wrong constant name &
 # wrong constant name <<
 # wrong constant name <=>
@@ -4586,80 +4260,21 @@
 # wrong constant name <static-init>
 # wrong constant name new_ntoh
 # wrong constant name ntop
-# undefined method `chr$2' for class `Integer'
-# undefined method `inspect$1' for class `Integer'
-# Did you mean?  inspect
-# undefined method `rationalize$2' for class `Integer'
-# Did you mean?  Rational
-# undefined method `to_s$1' for class `Integer'
-# Did you mean?  to_s
 # wrong constant name allbits?
 # wrong constant name anybits?
-# wrong constant name chr$2
 # wrong constant name digits
-# wrong constant name inspect$1
 # wrong constant name nobits?
 # wrong constant name pow
-# wrong constant name rationalize$2
 # wrong constant name to_bn
-# wrong constant name to_s$1
 # wrong constant name sqrt
 # wrong constant name from_state
 # wrong constant name initialize
-# undefined method `clone$1' for module `Kernel'
-# Did you mean?  clone
-# undefined method `define_singleton_method$2' for module `Kernel'
-# Did you mean?  define_singleton_method
-# undefined method `display$1' for module `Kernel'
-# Did you mean?  display
-# undefined method `enum_for$2' for module `Kernel'
-# Did you mean?  enum_for
-# undefined method `exit$2' for module `Kernel'
-# Did you mean?  exit
-#                exit!
-# undefined method `extend$1' for module `Kernel'
-# Did you mean?  extend
-#                extended
-# undefined method `methods$1' for module `Kernel'
-# Did you mean?  methods
-#                method
-#                method
-# undefined method `private_methods$1' for module `Kernel'
-# Did you mean?  private_methods
-# undefined method `protected_methods$1' for module `Kernel'
-# Did you mean?  protected_methods
-# undefined method `public_methods$1' for module `Kernel'
-# Did you mean?  public_methods
-#                public_method
-# undefined method `public_send$1' for module `Kernel'
-# Did you mean?  public_send
-# undefined method `send$2' for module `Kernel'
-# Did you mean?  send
-# undefined method `singleton_methods$1' for module `Kernel'
-# Did you mean?  singleton_methods
-#                singleton_method
-# undefined method `to_enum$2' for module `Kernel'
-# Did you mean?  to_enum
-# wrong constant name clone$1
-# wrong constant name define_singleton_method$2
-# wrong constant name display$1
-# wrong constant name enum_for$2
-# wrong constant name exit$2
-# wrong constant name extend$1
 # wrong constant name gem
 # wrong constant name itself
-# wrong constant name methods$1
 # wrong constant name object_id
 # wrong constant name pretty_inspect
-# wrong constant name private_methods$1
-# wrong constant name protected_methods$1
-# wrong constant name public_methods$1
-# wrong constant name public_send$1
 # wrong constant name respond_to?
-# wrong constant name send$2
-# wrong constant name singleton_methods$1
 # wrong constant name then
-# wrong constant name to_enum$2
 # wrong constant name at_exit
 # wrong constant name key
 # wrong constant name receiver
@@ -4668,66 +4283,10 @@
 # wrong constant name reason
 # uninitialized constant Logger
 # uninitialized constant Logger
-# undefined singleton method `dump$2' for `Marshal'
-# wrong constant name dump$2
 # wrong constant name restore
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
-# undefined method `class_eval$2' for class `Module'
-# Did you mean?  class_eval
-# undefined method `class_variables$1' for class `Module'
-# Did you mean?  class_variables
-#                class_variable_set
-#                class_variable_get
-# undefined method `const_defined?$1' for class `Module'
-# Did you mean?  const_defined?
-# undefined method `const_get$1' for class `Module'
-# Did you mean?  const_get
-#                const_set
-# undefined method `constants$1' for class `Module'
-# Did you mean?  constants
-# undefined method `define_method$2' for class `Module'
-# Did you mean?  define_method
-# undefined method `instance_methods$1' for class `Module'
-# Did you mean?  instance_methods
-#                instance_method
-# undefined method `method_defined?$1' for class `Module'
-# Did you mean?  method_defined?
-#                method_undefined
-# undefined method `module_eval$2' for class `Module'
-# Did you mean?  module_eval
-# undefined method `private_instance_methods$1' for class `Module'
-# Did you mean?  private_instance_methods
-# undefined method `private_method_defined?$1' for class `Module'
-# Did you mean?  private_method_defined?
-# undefined method `protected_instance_methods$1' for class `Module'
-# Did you mean?  protected_instance_methods
-# undefined method `protected_method_defined?$1' for class `Module'
-# Did you mean?  protected_method_defined?
-# undefined method `public_instance_methods$1' for class `Module'
-# Did you mean?  public_instance_methods
-#                public_instance_method
-# undefined method `public_method_defined?$1' for class `Module'
-# Did you mean?  public_method_defined?
-# undefined method `remove_method$1' for class `Module'
-# Did you mean?  remove_method
-# wrong constant name class_eval$2
-# wrong constant name class_variables$1
-# wrong constant name const_defined?$1
-# wrong constant name const_get$1
-# wrong constant name constants$1
-# wrong constant name define_method$2
 # wrong constant name deprecate_constant
-# wrong constant name instance_methods$1
-# wrong constant name method_defined?$1
-# wrong constant name module_eval$2
-# wrong constant name private_instance_methods$1
-# wrong constant name private_method_defined?$1
-# wrong constant name protected_instance_methods$1
-# wrong constant name protected_method_defined?$1
-# wrong constant name public_instance_methods$1
-# wrong constant name public_method_defined?$1
-# wrong constant name remove_method$1
 # wrong constant name undef_method
 # wrong constant name used_modules
 # uninitialized constant Monitor::EXCEPTION_IMMEDIATE
@@ -4806,9 +4365,6 @@
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnsupportedCommand
 # uninitialized constant Net::SMTPUnsupportedCommand
-# undefined method `rationalize$1' for class `NilClass'
-# Did you mean?  Rational
-# wrong constant name rationalize$1
 # wrong constant name to_i
 # wrong constant name args
 # wrong constant name private_call?
@@ -4825,10 +4381,8 @@
 # wrong constant name length
 # wrong constant name size
 # wrong constant name values
-# undefined singleton method `each_object$2' for `ObjectSpace'
 # wrong constant name count_objects
 # wrong constant name define_finalizer
-# wrong constant name each_object$2
 # wrong constant name garbage_collect
 # wrong constant name undefine_finalizer
 # uninitialized constant OpenSSL::Digest::DSS
@@ -4843,46 +4397,14 @@
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # uninitialized constant Opus
 # uninitialized constant Opus
-# undefined method `basename$1' for class `Pathname'
-# undefined method `binread$1' for class `Pathname'
-# undefined method `binwrite$1' for class `Pathname'
-# undefined method `each_line$2' for class `Pathname'
-# undefined method `expand_path$1' for class `Pathname'
-# undefined method `find$2' for class `Pathname'
-# undefined method `fnmatch$1' for class `Pathname'
-# undefined method `mkdir$1' for class `Pathname'
-# undefined method `opendir$2' for class `Pathname'
-# undefined method `read$1' for class `Pathname'
-# undefined method `realdirpath$1' for class `Pathname'
-# undefined method `realpath$1' for class `Pathname'
-# undefined method `symlink?$2' for class `Pathname'
-# undefined method `sysopen$1' for class `Pathname'
-# undefined method `write$1' for class `Pathname'
-# wrong constant name basename$1
-# wrong constant name binread$1
-# wrong constant name binwrite$1
-# wrong constant name each_line$2
 # wrong constant name empty?
-# wrong constant name expand_path$1
-# wrong constant name find$2
-# wrong constant name fnmatch$1
 # wrong constant name fnmatch?
 # wrong constant name glob
 # wrong constant name make_symlink
-# wrong constant name mkdir$1
-# wrong constant name opendir$2
-# wrong constant name read$1
-# wrong constant name realdirpath$1
-# wrong constant name realpath$1
-# wrong constant name symlink?$2
-# wrong constant name sysopen$1
-# wrong constant name write$1
-# undefined method `curry$1' for class `Proc'
 # wrong constant name <<
 # wrong constant name ===
 # wrong constant name >>
 # wrong constant name clone
-# wrong constant name curry$1
 # wrong constant name yield
 # uninitialized constant Proc0
 # uninitialized constant Proc0
@@ -4906,11 +4428,7 @@
 # uninitialized constant Proc8
 # uninitialized constant Proc9
 # uninitialized constant Proc9
-# undefined singleton method `setresgid$1' for `Process::Sys'
-# undefined singleton method `setresuid$1' for `Process::Sys'
 # wrong constant name getegid
-# wrong constant name setresgid$1
-# wrong constant name setresuid$1
 # wrong constant name cstime
 # wrong constant name cstime=
 # wrong constant name cutime
@@ -4921,28 +4439,12 @@
 # wrong constant name utime=
 # wrong constant name []
 # wrong constant name members
-# undefined singleton method `clock_getres$1' for `Process'
-# undefined singleton method `clock_gettime$1' for `Process'
-# undefined singleton method `daemon$1' for `Process'
-# undefined singleton method `getsid$1' for `Process'
-# undefined singleton method `kill$1' for `Process'
-# undefined singleton method `setrlimit$1' for `Process'
-# undefined singleton method `wait$1' for `Process'
-# undefined singleton method `wait2$1' for `Process'
-# undefined singleton method `waitpid$1' for `Process'
-# undefined singleton method `waitpid2$1' for `Process'
-# wrong constant name clock_getres$1
-# wrong constant name clock_gettime$1
-# wrong constant name daemon$1
-# wrong constant name getsid$1
-# wrong constant name kill$1
 # wrong constant name last_status
 # wrong constant name setpgrp
-# wrong constant name setrlimit$1
-# wrong constant name wait$1
-# wrong constant name wait2$1
-# wrong constant name waitpid$1
-# wrong constant name waitpid2$1
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name relative_file_name
+# wrong constant name <static-init>
 # uninitialized constant RSpec::Core::ExampleGroup::BE_PREDICATE_REGEX
 # uninitialized constant RSpec::Core::ExampleGroup::DYNAMIC_MATCHER_REGEX
 # uninitialized constant RSpec::Core::ExampleGroup::HAS_REGEX
@@ -4980,6 +4482,11 @@
 # wrong constant name example_group_finished
 # wrong constant name example_passed
 # wrong constant name example_pending
+# wrong constant name example_started
+# wrong constant name <static-init>
+# wrong constant name dump_profile
+# wrong constant name example_failed
+# wrong constant name message
 # wrong constant name <static-init>
 # wrong constant name initialize
 # wrong constant name message
@@ -5015,6 +4522,7 @@
 # wrong constant name example_groups
 # wrong constant name example_started
 # wrong constant name <static-init>
+# wrong constant name exit_early
 # wrong constant name <Class:Recording>
 # wrong constant name __shared_context_recordings
 # wrong constant name after
@@ -5190,7 +4698,7 @@
 # wrong constant name <static-init>
 # wrong constant name worse_than?
 # wrong constant name +
-# uninitialized constant #<Class:0x00007fb5b2bc48b8>::Elem
+# uninitialized constant #<Class:0x00007fb021acfd18>::Elem
 # wrong constant name candidate?
 # wrong constant name ideal?
 # wrong constant name indeterminate_actual_indexes
@@ -5382,6 +4890,7 @@
 # wrong constant name never
 # wrong constant name once
 # wrong constant name thrice
+# wrong constant name time
 # wrong constant name times
 # wrong constant name twice
 # wrong constant name with
@@ -5476,6 +4985,7 @@
 # wrong constant name setup_expectation
 # wrong constant name setup_negative_expectation
 # wrong constant name thrice
+# wrong constant name time
 # wrong constant name times
 # wrong constant name twice
 # wrong constant name with
@@ -5505,6 +5015,7 @@
 # wrong constant name setup_expectation
 # wrong constant name setup_negative_expectation
 # wrong constant name thrice
+# wrong constant name time
 # wrong constant name times
 # wrong constant name twice
 # wrong constant name with
@@ -5547,6 +5058,7 @@
 # wrong constant name object
 # wrong constant name setup_chain
 # wrong constant name <static-init>
+# wrong constant name time
 # wrong constant name <static-init>
 # wrong constant name stub_chain_on
 # wrong constant name <Class:Differ>
@@ -5558,6 +5070,11 @@
 # wrong constant name <static-init>
 # uninitialized constant Racc
 # uninitialized constant Racc
+# wrong constant name to_ansi_domain
+# wrong constant name method_missing
+# wrong constant name method_missing
+# wrong constant name uncolor
+# wrong constant name new
 # uninitialized constant Rake::DSL::DEFAULT
 # uninitialized constant Rake::DSL::LN_SUPPORTED
 # uninitialized constant Rake::DSL::LOW_METHODS
@@ -5579,37 +5096,16 @@
 # uninitialized constant Rake::FileUtilsExt::VERSION
 # Did you mean?  Rake::Version
 #                Rake::VERSION
-# undefined method `rand$2' for module `Random::Formatter'
-# Did you mean?  rand
-# undefined method `random_number$2' for module `Random::Formatter'
 # wrong constant name alphanumeric
-# wrong constant name rand$2
-# wrong constant name random_number$2
 # wrong constant name bytes
 # wrong constant name urandom
-# undefined method `initialize$1' for class `Range'
-# Did you mean?  initialize
-# undefined method `last$2' for class `Range'
-# undefined method `step$2' for class `Range'
 # wrong constant name %
 # wrong constant name entries
-# wrong constant name initialize$1
-# wrong constant name last$2
-# wrong constant name step$2
 # wrong constant name to_a
 # wrong constant name expand
 # wrong constant name fire_update!
 # wrong constant name ruby
-# undefined method `initialize$2' for class `Regexp'
-# Did you mean?  initialize
-# undefined method `match$1' for class `Regexp'
-# wrong constant name initialize$2
-# wrong constant name match$1
 # wrong constant name match?
-# undefined singleton method `compile$2' for `Regexp'
-# undefined singleton method `last_match$2' for `Regexp'
-# wrong constant name compile$2
-# wrong constant name last_match$2
 # wrong constant name union
 # uninitialized constant Ripper
 # uninitialized constant Ripper
@@ -5852,136 +5348,22 @@
 # wrong constant name initialize
 # wrong constant name setup
 # wrong constant name result
-# undefined method `[]$2' for class `String'
-# undefined method `byteslice$2' for class `String'
-# undefined method `capitalize$1' for class `String'
-# undefined method `capitalize!$1' for class `String'
-# undefined method `center$1' for class `String'
-# undefined method `chomp$1' for class `String'
-# undefined method `chomp!$1' for class `String'
-# undefined method `concat$1' for class `String'
-# undefined method `count$1' for class `String'
-# undefined method `delete$1' for class `String'
-# Did you mean?  DelegateClass
-# undefined method `delete!$1' for class `String'
-# undefined method `downcase$1' for class `String'
-# undefined method `downcase!$1' for class `String'
-# undefined method `each_line$2' for class `String'
-# undefined method `gsub$2' for class `String'
-# undefined method `gsub!$2' for class `String'
-# undefined method `index$1' for class `String'
-# undefined method `initialize$1' for class `String'
-# Did you mean?  initialize
-# undefined method `lines$1' for class `String'
-# undefined method `ljust$1' for class `String'
-# undefined method `match$2' for class `String'
-# undefined method `match?$2' for class `String'
-# undefined method `prepend$1' for class `String'
-# Did you mean?  prepend
-#                prepended
-# undefined method `rindex$1' for class `String'
-# undefined method `rjust$1' for class `String'
-# undefined method `scrub$2' for class `String'
-# undefined method `scrub!$2' for class `String'
-# undefined method `slice$2' for class `String'
-# undefined method `slice!$2' for class `String'
-# undefined method `split$2' for class `String'
-# undefined method `squeeze$1' for class `String'
-# undefined method `squeeze!$1' for class `String'
-# undefined method `sub$2' for class `String'
-# undefined method `sub!$2' for class `String'
-# undefined method `sum$1' for class `String'
-# undefined method `swapcase$1' for class `String'
-# undefined method `swapcase!$1' for class `String'
-# undefined method `to_i$1' for class `String'
-# undefined method `upcase$1' for class `String'
-# undefined method `upcase!$1' for class `String'
-# undefined method `upto$2' for class `String'
-# wrong constant name +@
-# wrong constant name -@
-# wrong constant name []$2
 # wrong constant name []=
-# wrong constant name byteslice$2
-# wrong constant name capitalize$1
-# wrong constant name capitalize!$1
 # wrong constant name casecmp?
-# wrong constant name center$1
-# wrong constant name chomp$1
-# wrong constant name chomp!$1
-# wrong constant name concat$1
-# wrong constant name count$1
-# wrong constant name delete$1
-# wrong constant name delete!$1
-# wrong constant name delete_prefix
-# wrong constant name delete_prefix!
-# wrong constant name delete_suffix
-# wrong constant name delete_suffix!
-# wrong constant name downcase$1
-# wrong constant name downcase!$1
 # wrong constant name each_grapheme_cluster
-# wrong constant name each_line$2
-# wrong constant name encode
 # wrong constant name encode!
 # wrong constant name grapheme_clusters
-# wrong constant name gsub$2
-# wrong constant name gsub!$2
-# wrong constant name index$1
-# wrong constant name initialize$1
-# wrong constant name lines$1
-# wrong constant name ljust$1
-# wrong constant name match$2
-# wrong constant name match?$2
-# wrong constant name prepend$1
 # wrong constant name reverse!
-# wrong constant name rindex$1
-# wrong constant name rjust$1
-# wrong constant name scrub$2
-# wrong constant name scrub!$2
 # wrong constant name shellescape
 # wrong constant name shellsplit
-# wrong constant name slice$2
-# wrong constant name slice!$2
-# wrong constant name split$2
-# wrong constant name squeeze$1
-# wrong constant name squeeze!$1
-# wrong constant name sub$2
-# wrong constant name sub!$2
 # wrong constant name succ!
-# wrong constant name sum$1
-# wrong constant name swapcase$1
-# wrong constant name swapcase!$1
-# wrong constant name to_i$1
 # wrong constant name undump
 # wrong constant name unicode_normalize
 # wrong constant name unicode_normalize!
 # wrong constant name unicode_normalized?
 # wrong constant name unpack1
-# wrong constant name upcase$1
-# wrong constant name upcase!$1
-# wrong constant name upto$2
-# undefined method `each$2' for class `StringIO'
-# undefined method `each_line$2' for class `StringIO'
-# undefined method `fcntl$1' for class `StringIO'
-# undefined method `initialize$1' for class `StringIO'
-# Did you mean?  initialize
-# undefined method `lines$2' for class `StringIO'
-# undefined method `read$1' for class `StringIO'
-# undefined method `reopen$2' for class `StringIO'
-# undefined method `seek$1' for class `StringIO'
-# undefined method `set_encoding$2' for class `StringIO'
-# undefined method `write$1' for class `StringIO'
-# wrong constant name each$2
-# wrong constant name each_line$2
-# wrong constant name fcntl$1
-# wrong constant name initialize$1
 # wrong constant name length
-# wrong constant name lines$2
-# wrong constant name read$1
-# wrong constant name reopen$2
-# wrong constant name seek$1
-# wrong constant name set_encoding$2
 # wrong constant name truncate
-# wrong constant name write$1
 # wrong constant name <<
 # wrong constant name []
 # wrong constant name beginning_of_line?
@@ -6026,14 +5408,11 @@
 # wrong constant name unscan
 # wrong constant name values_at
 # wrong constant name must_C_version
-# undefined method `initialize$1' for class `Struct'
-# Did you mean?  initialize
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name dig
 # wrong constant name each_pair
 # wrong constant name filter
-# wrong constant name initialize$1
 # wrong constant name length
 # wrong constant name members
 # wrong constant name select
@@ -6048,9 +5427,7 @@
 # wrong constant name T.noreturn
 # wrong constant name T.noreturn
 # wrong constant name T.untyped
-# undefined method `enable$2' for class `TracePoint'
 # wrong constant name __enable
-# wrong constant name enable$2
 # wrong constant name eval_script
 # wrong constant name event
 # wrong constant name instruction_sequence

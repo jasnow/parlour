@@ -34,7 +34,6 @@ BasicObject::BasicObject = BasicObject
 
 class BigDecimal
   def clone(); end
-
   EXCEPTION_NaN = ::T.let(nil, ::T.untyped)
   SIGN_NaN = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
@@ -3899,7 +3898,6 @@ module Coverage
   def self.peek_result(); end
 
   def self.running?(); end
-
 end
 
 class Date::Infinity
@@ -4044,7 +4042,6 @@ class Dir
   def children(); end
 
   def each_child(); end
-
 end
 
 class Dir
@@ -4186,7 +4183,6 @@ class Enumerator
   def +(_); end
 
   def each_with_index(); end
-
 end
 
 class Enumerator::ArithmeticSequence
@@ -4493,7 +4489,6 @@ end
 
 class Exception
   def full_message(*_); end
-
 end
 
 class Exception
@@ -4536,7 +4531,6 @@ class File
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
-
 end
 
 FileList = Rake::FileList
@@ -4548,29 +4542,29 @@ module FileUtils
 end
 
 module FileUtils::DryRun
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::DryRun
   extend ::FileUtils::DryRun
-  extend ::FileUtils::LowMethods
   extend ::FileUtils
   extend ::FileUtils::StreamUtils_
+  extend ::FileUtils::LowMethods
 end
 
 module FileUtils::NoWrite
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::NoWrite
   extend ::FileUtils::NoWrite
-  extend ::FileUtils::LowMethods
   extend ::FileUtils
   extend ::FileUtils::StreamUtils_
+  extend ::FileUtils::LowMethods
 end
 
 module FileUtils::Verbose
@@ -8127,8 +8121,8 @@ class Gem::Specification
 end
 
 class Gem::Specification
-  extend ::Enumerable
   extend ::Gem::Deprecate
+  extend ::Enumerable
   def self._all(); end
 
   def self._clear_load_cache(); end
@@ -8748,7 +8742,6 @@ class IO
   def self.foreach(*_); end
 
   def self.pipe(*_); end
-
 end
 
 class IPAddr
@@ -8871,7 +8864,6 @@ class Integer
   def pow(*_); end
 
   def to_bn(); end
-
   GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
@@ -8905,7 +8897,6 @@ module Kernel
   def respond_to?(*_); end
 
   def then(); end
-
 end
 
 module Kernel
@@ -9008,15 +8999,14 @@ class NilClass
 end
 
 class NoMethodError
-  include ::DidYouMean::Correctable
   def args(); end
 
   def private_call?(); end
 end
 
 class Object
-  include ::PP::ObjectMixin
   include ::JSON::Ext::Generator::GeneratorMethods::Object
+  include ::PP::ObjectMixin
   ARGF = ::T.let(nil, ::T.untyped)
   ARGV = ::T.let(nil, ::T.untyped)
   CROSS_COMPILING = ::T.let(nil, ::T.untyped)
@@ -9076,6 +9066,16 @@ class Parlour::ConflictResolver
   extend ::T::Private::Methods::SingletonMethodHooks
 end
 
+module Parlour::Debugging::Tree
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
+module Parlour::Debugging
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
 class Parlour::Plugin
   extend ::T::Private::Abstract::Hooks
   extend ::T::InterfaceWrapper::Helpers
@@ -9113,7 +9113,6 @@ class Pathname
   def glob(*_); end
 
   def make_symlink(_); end
-
 end
 
 class Proc
@@ -9136,7 +9135,6 @@ end
 
 module Process::Sys
   def self.getegid(); end
-
 end
 
 class Process::Tms
@@ -9167,7 +9165,6 @@ module Process
   def self.last_status(); end
 
   def self.setpgrp(); end
-
 end
 
 module RSpec
@@ -9196,6 +9193,17 @@ class RSpec::Core::ConfigurationOptions
   OPTIONS_ORDER = ::T.let(nil, ::T.untyped)
   UNFORCED_OPTIONS = ::T.let(nil, ::T.untyped)
   UNPROCESSABLE_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::DidYouMean
+  def call(); end
+
+  def initialize(relative_file_name); end
+
+  def relative_file_name(); end
+end
+
+class RSpec::Core::DidYouMean
 end
 
 RSpec::Core::Example::AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt = RSpec::Support::AllExceptionsExceptOnesWeMustNotRescue
@@ -9308,6 +9316,8 @@ class RSpec::Core::Formatters::DocumentationFormatter
   def example_passed(passed); end
 
   def example_pending(pending); end
+
+  def example_started(_notification); end
 end
 
 class RSpec::Core::Formatters::DocumentationFormatter
@@ -9315,6 +9325,17 @@ end
 
 class RSpec::Core::Formatters::ExceptionPresenter
   PENDING_DETAIL_FORMATTER = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Formatters::FailureListFormatter
+  def dump_profile(_profile); end
+
+  def example_failed(failure); end
+
+  def message(_message); end
+end
+
+class RSpec::Core::Formatters::FailureListFormatter
 end
 
 class RSpec::Core::Formatters::FallbackMessageFormatter
@@ -9436,6 +9457,7 @@ class RSpec::Core::Profiler
 end
 
 class RSpec::Core::Reporter
+  def exit_early(exit_code); end
   RSPEC_NOTIFICATIONS = ::T.let(nil, ::T.untyped)
 end
 
@@ -10266,6 +10288,8 @@ module RSpec::Mocks::AnyInstance::Chain::Customizations
 
   def thrice(*args, &block); end
 
+  def time(*args, &block); end
+
   def times(*args, &block); end
 
   def twice(*args, &block); end
@@ -10490,6 +10514,8 @@ class RSpec::Mocks::Matchers::HaveReceived
 
   def thrice(*args); end
 
+  def time(*args); end
+
   def times(*args); end
 
   def twice(*args); end
@@ -10552,6 +10578,8 @@ class RSpec::Mocks::Matchers::Receive
   def setup_negative_expectation(subject, &block); end
 
   def thrice(*args, &block); end
+
+  def time(*args, &block); end
 
   def times(*args, &block); end
 
@@ -10653,6 +10681,10 @@ end
 class RSpec::Mocks::MessageChain
 end
 
+class RSpec::Mocks::MessageExpectation
+  def time(&block); end
+end
+
 class RSpec::Mocks::ObjectReference
   MODULE_NAME_METHOD = ::T.let(nil, ::T.untyped)
 end
@@ -10740,6 +10772,26 @@ module RSpec::Version
   STRING = ::T.let(nil, ::T.untyped)
 end
 
+class Rainbow::Color::RGB
+  def self.to_ansi_domain(value); end
+end
+
+class Rainbow::NullPresenter
+  def method_missing(method_name, *args); end
+end
+
+class Rainbow::Presenter
+  def method_missing(method_name, *args); end
+end
+
+class Rainbow::StringUtils
+  def self.uncolor(string); end
+end
+
+module Rainbow
+  def self.new(); end
+end
+
 module Rake
   EARLY = ::T.let(nil, ::T.untyped)
   EMPTY_TASK_ARGS = ::T.let(nil, ::T.untyped)
@@ -10819,7 +10871,6 @@ RakeFileUtils = Rake::FileUtilsExt
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
-
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -11471,25 +11522,11 @@ end
 
 class String
   include ::JSON::Ext::Generator::GeneratorMethods::String
-  def +@(); end
-
-  def -@(); end
-
   def []=(*_); end
 
   def casecmp?(_); end
 
-  def delete_prefix(_); end
-
-  def delete_prefix!(_); end
-
-  def delete_suffix(_); end
-
-  def delete_suffix!(_); end
-
   def each_grapheme_cluster(); end
-
-  def encode(*_); end
 
   def encode!(*_); end
 
@@ -11512,7 +11549,6 @@ class String
   def unicode_normalized?(*_); end
 
   def unpack1(_); end
-
 end
 
 class String
@@ -11523,7 +11559,6 @@ class StringIO
   def length(); end
 
   def truncate(_); end
-
 end
 
 class StringScanner
