@@ -23,7 +23,22 @@
 # wrong constant name <RESERVED_10>
 # wrong constant name <RESERVED_110>
 # wrong constant name <RESERVED_111>
+# wrong constant name <RESERVED_112>
+# wrong constant name <RESERVED_113>
+# wrong constant name <RESERVED_114>
+# wrong constant name <RESERVED_115>
+# wrong constant name <RESERVED_116>
+# wrong constant name <RESERVED_117>
+# wrong constant name <RESERVED_118>
+# wrong constant name <RESERVED_119>
 # wrong constant name <RESERVED_11>
+# wrong constant name <RESERVED_120>
+# wrong constant name <RESERVED_121>
+# wrong constant name <RESERVED_122>
+# wrong constant name <RESERVED_123>
+# wrong constant name <RESERVED_124>
+# wrong constant name <RESERVED_125>
+# wrong constant name <RESERVED_126>
 # wrong constant name <RESERVED_12>
 # wrong constant name <RESERVED_13>
 # wrong constant name <RESERVED_14>
@@ -2221,25 +2236,6 @@
 # wrong constant name []
 # wrong constant name each
 # wrong constant name members
-# wrong constant name confstr
-# wrong constant name endgrent
-# wrong constant name endpwent
-# wrong constant name getgrent
-# wrong constant name getgrgid
-# wrong constant name getgrnam
-# wrong constant name getlogin
-# wrong constant name getpwent
-# wrong constant name getpwnam
-# wrong constant name getpwuid
-# wrong constant name group
-# wrong constant name nprocessors
-# wrong constant name passwd
-# wrong constant name setgrent
-# wrong constant name setpwent
-# wrong constant name sysconf
-# wrong constant name sysconfdir
-# wrong constant name systmpdir
-# wrong constant name uname
 # wrong constant name full_message
 # wrong constant name exception
 # wrong constant name to_tty?
@@ -4698,7 +4694,7 @@
 # wrong constant name <static-init>
 # wrong constant name worse_than?
 # wrong constant name +
-# uninitialized constant #<Class:0x00007fb021acfd18>::Elem
+# uninitialized constant #<Class:0x00007f87a1a75500>::Elem
 # wrong constant name candidate?
 # wrong constant name ideal?
 # wrong constant name indeterminate_actual_indexes
