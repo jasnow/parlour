@@ -907,6 +907,7 @@ module Bundler::FileUtils
   LOW_METHODS = ::T.let(nil, ::T.untyped)
   METHODS = ::T.let(nil, ::T.untyped)
   OPT_TABLE = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
 end
 
 module Bundler::FileUtils::DryRun
@@ -951,6 +952,8 @@ class Bundler::FileUtils::Entry_
   def file?(); end
 
   def initialize(a, b=T.unsafe(nil), deref=T.unsafe(nil)); end
+
+  def link(dest); end
 
   def lstat(); end
 
@@ -1065,6 +1068,8 @@ module Bundler::FileUtils
 
   def self.cp(src, dest, preserve: T.unsafe(nil), noop: T.unsafe(nil), verbose: T.unsafe(nil)); end
 
+  def self.cp_lr(src, dest, noop: T.unsafe(nil), verbose: T.unsafe(nil), dereference_root: T.unsafe(nil), remove_destination: T.unsafe(nil)); end
+
   def self.cp_r(src, dest, preserve: T.unsafe(nil), noop: T.unsafe(nil), verbose: T.unsafe(nil), dereference_root: T.unsafe(nil), remove_destination: T.unsafe(nil)); end
 
   def self.getwd(); end
@@ -1076,6 +1081,8 @@ module Bundler::FileUtils
   def self.install(src, dest, mode: T.unsafe(nil), owner: T.unsafe(nil), group: T.unsafe(nil), preserve: T.unsafe(nil), noop: T.unsafe(nil), verbose: T.unsafe(nil)); end
 
   def self.link(src, dest, force: T.unsafe(nil), noop: T.unsafe(nil), verbose: T.unsafe(nil)); end
+
+  def self.link_entry(src, dest, dereference_root=T.unsafe(nil), remove_destination=T.unsafe(nil)); end
 
   def self.ln(src, dest, force: T.unsafe(nil), noop: T.unsafe(nil), verbose: T.unsafe(nil)); end
 
@@ -1179,7 +1186,9 @@ class Bundler::GemHelper
 
   def sh(cmd, &block); end
 
-  def sh_with_code(cmd, &block); end
+  def sh_with_input(cmd); end
+
+  def sh_with_status(cmd, &block); end
 
   def spec_path(); end
 
@@ -2887,6 +2896,8 @@ end
 class Bundler::RubygemsIntegration::MoreFuture
   def backport_ext_builder_monitor(); end
 
+  def default_stubs(); end
+
   def use_gemdeps(gemfile); end
 end
 
@@ -3693,17 +3704,6 @@ class Bundler::VirtualProtocolError
 end
 
 class Bundler::VirtualProtocolError
-end
-
-module Bundler::YAMLSerializer
-  ARRAY_REGEX = ::T.let(nil, ::T.untyped)
-  HASH_REGEX = ::T.let(nil, ::T.untyped)
-end
-
-module Bundler::YAMLSerializer
-  def self.dump(hash); end
-
-  def self.load(str); end
 end
 
 class Bundler::YamlSyntaxError
@@ -9417,7 +9417,6 @@ class RSpec::Core::Profiler
 end
 
 class RSpec::Core::Reporter
-  def exit_early(exit_code); end
   RSPEC_NOTIFICATIONS = ::T.let(nil, ::T.untyped)
 end
 
@@ -10641,10 +10640,6 @@ end
 class RSpec::Mocks::MessageChain
 end
 
-class RSpec::Mocks::MessageExpectation
-  def time(&block); end
-end
-
 class RSpec::Mocks::ObjectReference
   MODULE_NAME_METHOD = ::T.let(nil, ::T.untyped)
 end
@@ -10730,26 +10725,6 @@ end
 
 module RSpec::Version
   STRING = ::T.let(nil, ::T.untyped)
-end
-
-class Rainbow::Color::RGB
-  def self.to_ansi_domain(value); end
-end
-
-class Rainbow::NullPresenter
-  def method_missing(method_name, *args); end
-end
-
-class Rainbow::Presenter
-  def method_missing(method_name, *args); end
-end
-
-class Rainbow::StringUtils
-  def self.uncolor(string); end
-end
-
-module Rainbow
-  def self.new(); end
 end
 
 module Rake
