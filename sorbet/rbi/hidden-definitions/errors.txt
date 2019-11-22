@@ -36,6 +36,8 @@
 # wrong constant name <RESERVED_121>
 # wrong constant name <RESERVED_122>
 # wrong constant name <RESERVED_123>
+# wrong constant name <RESERVED_124>
+# wrong constant name <RESERVED_125>
 # wrong constant name <RESERVED_12>
 # wrong constant name <RESERVED_13>
 # wrong constant name <RESERVED_14>
@@ -2834,10 +2836,10 @@
 # wrong constant name name=
 # wrong constant name passwd
 # wrong constant name passwd=
-# uninitialized constant Etc::Group::Elem
 # wrong constant name []
 # wrong constant name each
 # wrong constant name members
+# wrong constant name <Class:Group>
 # wrong constant name change
 # wrong constant name change=
 # wrong constant name dir
@@ -2858,10 +2860,10 @@
 # wrong constant name uclass=
 # wrong constant name uid
 # wrong constant name uid=
-# uninitialized constant Etc::Passwd::Elem
 # wrong constant name []
 # wrong constant name each
 # wrong constant name members
+# wrong constant name <Class:Passwd>
 # wrong constant name full_message
 # wrong constant name exception
 # wrong constant name to_tty?
@@ -4888,7 +4890,6 @@
 # wrong constant name yaml_initialize
 # undefined singleton method `_latest_specs<defaultArg>1' for `Gem::Specification'
 # undefined singleton method `latest_specs<defaultArg>1' for `Gem::Specification'
-# uninitialized constant Gem::Specification::Elem
 # wrong constant name _all
 # wrong constant name _clear_load_cache
 # wrong constant name _latest_specs<defaultArg>1
@@ -5742,7 +5743,7 @@
 # wrong constant name <static-init>
 # wrong constant name worse_than?
 # wrong constant name +
-# uninitialized constant #<Class:0x00007f96b6a1f460>::Elem
+# uninitialized constant #<Class:0x00007f9e169e3278>::Elem
 # wrong constant name candidate?
 # wrong constant name ideal?
 # wrong constant name indeterminate_actual_indexes
@@ -6133,6 +6134,13 @@
 # wrong constant name <static-init>
 # uninitialized constant Racc
 # uninitialized constant Racc
+# undefined method `init<defaultArg>2' for class `Rake::Application'
+# undefined method `run<defaultArg>1' for class `Rake::Application'
+# wrong constant name display_cause_details
+# wrong constant name display_exception_details_seen
+# wrong constant name init<defaultArg>2
+# wrong constant name run<defaultArg>1
+# wrong constant name set_default_options
 # uninitialized constant Rake::DSL::DEFAULT
 # uninitialized constant Rake::DSL::LN_SUPPORTED
 # uninitialized constant Rake::DSL::LOW_METHODS
@@ -6154,6 +6162,19 @@
 # uninitialized constant Rake::FileUtilsExt::VERSION
 # Did you mean?  Rake::Version
 #                Rake::VERSION
+# wrong constant name already_invoked
+# wrong constant name clear_args
+# wrong constant name order_only_prerequisites
+# wrong constant name prereqs
+# wrong constant name |
+# wrong constant name format_deps
+# wrong constant name fetch
+# wrong constant name key?
+# wrong constant name generate_did_you_mean_suggestions
+# wrong constant name generate_message_for_undefined_task
+# undefined singleton method `with_application<defaultArg>1' for `Rake'
+# wrong constant name with_application<defaultArg>1
+# wrong constant name with_application
 # undefined method `alphanumeric<defaultArg>1' for module `Random::Formatter'
 # undefined method `random_bytes<defaultArg>1' for module `Random::Formatter'
 # undefined method `urlsafe_base64<defaultArg>1' for module `Random::Formatter'
@@ -6519,6 +6540,7 @@
 # wrong constant name to_h
 # wrong constant name values
 # wrong constant name values_at
+# wrong constant name <Class:Struct>
 # wrong constant name errno
 # wrong constant name status
 # wrong constant name success?

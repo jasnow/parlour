@@ -8967,7 +8967,6 @@ class Object
   ARGV = ::T.let(nil, ::T.untyped)
   CROSS_COMPILING = ::T.let(nil, ::T.untyped)
   ENV = ::T.let(nil, ::T.untyped)
-  RAKEVERSION = ::T.let(nil, ::T.untyped)
   RUBY_COPYRIGHT = ::T.let(nil, ::T.untyped)
   RUBY_DESCRIPTION = ::T.let(nil, ::T.untyped)
   RUBY_ENGINE = ::T.let(nil, ::T.untyped)
@@ -10730,13 +10729,13 @@ module Rake
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Rake::AltSystem
-  WINDOWS = ::T.let(nil, ::T.untyped)
-end
-
 class Rake::Application
+  def display_cause_details(ex); end
+
+  def display_exception_details_seen(); end
+
+  def set_default_options(); end
   DEFAULT_RAKEFILES = ::T.let(nil, ::T.untyped)
-  FIXNUM_MAX = ::T.let(nil, ::T.untyped)
 end
 
 module Rake::Backtrace
@@ -10756,6 +10755,7 @@ class Rake::FileList
   DEFAULT_IGNORE_PATTERNS = ::T.let(nil, ::T.untyped)
   DEFAULT_IGNORE_PROCS = ::T.let(nil, ::T.untyped)
   DELEGATING_METHODS = ::T.let(nil, ::T.untyped)
+  GLOB_PATTERN = ::T.let(nil, ::T.untyped)
   MUST_DEFINE = ::T.let(nil, ::T.untyped)
   MUST_NOT_DEFINE = ::T.let(nil, ::T.untyped)
   SPECIAL_RETURN = ::T.let(nil, ::T.untyped)
@@ -10786,6 +10786,34 @@ class Rake::Scope
   EMPTY = ::T.let(nil, ::T.untyped)
 end
 
+class Rake::Task
+  def already_invoked(); end
+
+  def clear_args(); end
+
+  def order_only_prerequisites(); end
+
+  def prereqs(); end
+
+  def |(deps); end
+end
+
+class Rake::Task
+  def self.format_deps(deps); end
+end
+
+class Rake::TaskArguments
+  def fetch(*args, &block); end
+
+  def key?(key); end
+end
+
+module Rake::TaskManager
+  def generate_did_you_mean_suggestions(task_name); end
+
+  def generate_message_for_undefined_task(task_name); end
+end
+
 module Rake::Version
   BUILD = ::T.let(nil, ::T.untyped)
   MAJOR = ::T.let(nil, ::T.untyped)
@@ -10796,6 +10824,7 @@ end
 
 module Rake
   extend ::FileUtils::StreamUtils_
+  def self.with_application(block_application=T.unsafe(nil)); end
 end
 
 RakeFileUtils = Rake::FileUtilsExt
